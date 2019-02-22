@@ -49,7 +49,12 @@ Intuitively, with same condition of hardware, husky should be faster than other 
 - Distributed Version\
 <img src="https://raw.githubusercontent.com/chenyb59/Machine-learning/master/recsys/pic/rmse.jpg" width="350" height="300"><img src="https://github.com/chenyb59/Machine-learning/blob/master/recsys/pic/rmse_100.jpg" width="350" height="300">
 
-Compare with Spark.ALS.Recommendation
+Compare with Spark.ALS.Recommendation\
+Dataset：Netflix\
+setting：λ=0.01\
+total epoch number：5 on spark（迭代太多次会爆栈）/ 20 on husky\
+total executor cores：20
+
 
 size | metric | spark | Husky
 ---  | ---    | ---   | ---
