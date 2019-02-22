@@ -63,3 +63,6 @@ size | metric | spark | Husky
 7million rating（100MB）| Speed | 3.7228s/epoch | 3.99s/epoch
 7million rating（100MB）| Accuracy（RMSE）| 1.03 | 0.95
  
+## Reference
+R. Bell, Y. Koren, and C. Volinsky. Matrix factorization techniques for recom- mender systems. Computer, 42:30–37, 08 2009.
+Andriy Mnih and Ruslan R Salakhutdinov. Probabilistic matrix factorization. In Advances in neural information processing systems, pages 1257–1264, 2008.
