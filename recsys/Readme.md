@@ -32,13 +32,13 @@ So the objective function is : \
 
 ## Implementation
 - Local Version\
-[SGD](https://github.com/chenyb59/Machine-learning/tree/master/recsys/sgd_version)\
-[mini-batch](https://github.com/chenyb59/Machine-learning/tree/master/recsys/batch_version)\
+[SGD/Batch/Momentum](https://github.com/chenyb59/Machine-learning/tree/master/recsys/localVersion)\
+
 U,V update rule : 
 <img src="https://raw.githubusercontent.com/chenyb59/Machine-learning/master/recsys/pic/161550817151_.pic.jpg" width="400" height="100">
 
 - Distributed Version\
-[ALS](https://github.com/chenyb59/Machine-learning/tree/master/recsys/husky_version)\
+[ALS](https://github.com/chenyb59/Machine-learning/tree/master/recsys/distributedVersion)\
 update rule :
 <img src="https://github.com/chenyb59/Machine-learning/blob/master/recsys/pic/171550817176_.pic.jpg" width="200" height="50">
 
